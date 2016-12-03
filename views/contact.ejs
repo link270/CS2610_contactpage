@@ -3,6 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Contact</title>
+    <style>
+      .errormessage{
+        color: red;
+      }
+
+      .successmessage{
+        color: green;
+      }
+    </style>
   </head>
   <body>
     <form action='/contactmailer' method='post'>
@@ -16,5 +25,11 @@
       <input type="text" name="message" value=""><br><br>
       <input type="submit" value="Submit">
     </form>
+    <% if(message) { %>
+    <p class='successmessage'><%= message %></p>
+    <% } %>
+    <% if(error) { %>
+    <p class='errormessage'><%= error %></p>
+    <% } %>
   </body>
 </html>

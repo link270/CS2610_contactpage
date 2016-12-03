@@ -1,0 +1,30 @@
+{
+  "name": "CS2610_contactpage",
+  "version": "1.0.0",
+  "description": "Contact page for CS2610 class",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/link270/CS2610_contactpage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/link270/CS2610_contactpage/issues"
+  },
+  "homepage": "https://github.com/link270/CS2610_contactpage#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.3",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "nodemailer": "^2.6.4",
+    "validator": "^6.2.0"
+  }
+}
